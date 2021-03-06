@@ -4,7 +4,7 @@
 ## Description
 This app allows you to jot down notes to save for later. All notes can be saved, edited, and deleted!
 
-Link to application: https://joterr.herokuapp.com/notes
+Link to application: https://joterr.herokuapp.com
 
 ##Table of Contents
 * [Install](#Install)
