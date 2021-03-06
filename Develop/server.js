@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 require("./notes")(app);
 require("./htmlPaths")(app);
 
-app.listen(8000, function() {
-    console.log('App running on PORT 8000')
-})
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
